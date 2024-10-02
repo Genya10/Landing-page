@@ -30,3 +30,53 @@ body {
 [class*="__container"]{
     max-width: 1280px;
 }
+
+/*Main*/
+.page__main {
+}
+.main {
+    padding-top: 5.8125rem;
+    padding-bottom: 6.125rem;
+    border-bottom: 1px solid rgba(238,238,238,0.1);
+}
+.main__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.main__content {
+    flex: 1 1 auto;
+    padding-right: 1.25rem;
+}
+.main__title {
+    font-weight: 700;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:#eeeeee;
+}
+.main__title span {
+    color:#00adb5;
+}
+.main__title:not(:last-child){
+    margin-bottom: 3rem;
+}
+.main__buttons {
+    display: flex;
+    align-items: center;
+    gap:1.5rem;
+}
+.main__hire-btn {
+}
+.main__cv-btn {
+}
+.main__cv-btn span{
+    padding-right: 2.125rem;
+    display: block;
+    background: url('../images/icons/download.svg') right no-repeat;
+}
+.main__image {
+    flex:0 0 42.8%;
+}
+.main__image img {
+    min-width: 100%;
+}
