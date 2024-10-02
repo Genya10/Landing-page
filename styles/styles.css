@@ -1,6 +1,7 @@
 @import url('reset.css');
 @import url('header.css');
 @import url('footer.css');
+@import url('common.css');
 
 body {
     font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
@@ -18,6 +19,12 @@ body {
 
 .page {
     flex: 1 1 auto;
+    padding-top: 5.3125rem;
+}
+@media(max-width:500px){
+    .page {
+        padding-top: 4.5625rem;
+    }
 }
 
 [class*="__container"]{
