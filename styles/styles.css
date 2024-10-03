@@ -21,7 +21,7 @@ body {
     flex: 1 1 auto;
     padding-top: 5.3125rem;
 }
-@media(max-width:500px){
+@media(max-width:31.25rem){
     .page {
         padding-top: 4.5625rem;
     }
@@ -79,4 +79,49 @@ body {
 }
 .main__image img {
     min-width: 100%;
+}
+
+@media (max-width: 80rem){
+    .main {
+        padding-top: 3.125rem;
+        padding-bottom: 2.8125rem;
+    }
+    .main__container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .main__content {
+        padding-right: 0px;
+    }
+    .main__title {
+        text-align: center;
+    }
+    .main__image {
+        flex: 0 0 auto;    
+    }
+    .main__buttons {
+        justify-content: center;
+    }
+}
+@media(max-width:48rem) {
+    .main__title {
+        font-size: 4.0625rem;
+    }
+    .main__title:not(:last-child) {
+        margin-bottom: 1.5625rem;
+    }
+    .main {
+        padding-top: 2.1875rem;
+        padding-bottom: 2.1875rem;
+    }
+}
+@media (max-width:29.875rem){
+    .main__title {
+        font-size: 2.8125rem;
+    }
+    .main__buttons {
+        gap: .625rem;
+        flex-direction: column;
+        align-items: stretch;
+    }
 }
