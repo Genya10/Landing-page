@@ -1,4 +1,26 @@
+.title {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.5;
+    color:#eeeeee;
+}
+.title span {
+    color:#00adb5;
+}
+
+@media (max-width:62rem) {
+    .title{
+        font-size: 3.25rem;
+    }
+}
+@media(max-width:48rem){
+    .title {
+        font-size: 2.8125rem;
+    }
+}
+/*-----*/
 .btn {
+    text-align: center;
     font-weight: 700;
     font-size: 1.125rem;
     line-height: 1.6875rem;

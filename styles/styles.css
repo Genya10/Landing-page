@@ -71,7 +71,7 @@ body {
 }
 .main__cv-btn span{
     padding-right: 2.125rem;
-    display: block;
+    display: inline-block;
     background: url('../images/icons/download.svg') right no-repeat;
 }
 .main__image {
@@ -123,5 +123,58 @@ body {
         gap: .625rem;
         flex-direction: column;
         align-items: stretch;
+    }
+}
+
+/*About*/
+.about {
+    padding-top: 7.25rem;
+    padding-bottom: 7.25rem;
+}
+.about__container {
+    display: flex;
+}
+.about__content {
+    flex: 1 1 auto;
+    padding-right: 1.25rem;
+}
+.about__title {
+}
+.about__title:not(:last-child){
+    margin-bottom: 1.25rem;
+}
+.about__text {
+    max-width: 24.375rem;
+    line-height: 1.5;
+}
+.about__image {
+    text-align: center;
+    flex: 0 0 53.2%;
+}
+.about__image img{
+    max-width: 100%;
+}
+
+@media (max-width: 80rem){
+    .about {
+        padding-top: 4.375rem;
+        padding-bottom: 4.375rem;
+    }
+}
+@media (max-width: 62rem) {
+    .about {
+        padding-top: 2.8125rem;
+        padding-bottom: 2.8125rem;
+    }
+    .about__container {
+        flex-direction: column;
+    }
+    .about__content {
+        text-align: center;
+        padding-right: 0;
+        margin-bottom: 1.25rem;
+    }
+    .about__text {
+        max-width: none;
     }
 }
