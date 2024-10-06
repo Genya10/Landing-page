@@ -36,7 +36,8 @@
 .btn_dark {
     background: rgba(57,62,70,0.75);
 }
-.btn_dark:hover {
+.btn_dark:hover,
+.btn_dark.active {
     background-color: #00adb5;
 }
 /*-----------*/
