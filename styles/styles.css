@@ -21,12 +21,7 @@ body {
     flex: 1 1 auto;
     padding-top: 5.3125rem;
 }
-.page__main{}
-.page__about{}
-.page__works {
-}
-.page__contacts {
-}
+
 @media(max-width:31.25rem){
     .page {
         padding-top: 4.5625rem;
@@ -39,8 +34,6 @@ body {
 }
 
 /*Main*/
-.page__main {
-}
 .main {
     padding-top: 5.8125rem;
     padding-bottom: 6.125rem;
@@ -71,10 +64,6 @@ body {
     display: flex;
     align-items: center;
     gap:1.5rem;
-}
-.main__hire-btn {
-}
-.main__cv-btn {
 }
 .main__cv-btn span{
     padding-right: 2.125rem;
@@ -145,8 +134,6 @@ body {
     flex: 1 1 auto;
     padding-right: 1.25rem;
 }
-.about__title {
-}
 .about__title:not(:last-child){
     margin-bottom: 1.25rem;
 }
@@ -192,24 +179,14 @@ body {
     padding-bottom: 0.9em 0.0625rem;
     background: url('../images/works/bg.svg') 0 0 repeat;
 }
-.works__container {
-}
-.works__title {
-}
 .works__title:not(:last-child){
     margin-bottom: 1.25rem;
-}
-.works__items {
-}
-.items-works {
 }
 .items-works__navigator {
     display: flex;
     flex-wrap: wrap;
     gap:1rem;
     margin-bottom: 3rem;
-}
-.items-works__type {
 }
 .items-works__body {
     display: grid;
@@ -271,24 +248,16 @@ body {
     gap:3rem;
     align-items: start;
 }
-.contacts__content {
-}
-.contacts__title {
-}
 .contacts__image {
     text-align: center;
 }
 .contacts__image img {
     max-width: 100%;
 }
-.contacts__form {
-}
 .form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-}
-.form__item {
 }
 .form__item:nth-child(3),
 .form__item:nth-child(4) {
@@ -319,8 +288,6 @@ textarea.form__input {
 }
 .form__input:focus::placeholder {
     opacity: 0;
-}
-.form__btn {
 }
 .form__btn span{
     display: inline-block;
